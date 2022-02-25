@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 def home(request):
     packages = [
+	{'name':'blognajd', 'url': 'http://pypi.python.org/pypi/blognajd/1.1.1'},
 	{'name':'blocky', 'url': 'http://pypi.python.org/pypi/blocky/0.0.2'},
 	{'name':'BlazeForm', 'url': 'http://pypi.python.org/pypi/BlazeForm/0.4.1'},
 	{'name':'blee.icmPlayer', 'url': 'http://pypi.python.org/pypi/blee.icmPlayer/0.1'},
